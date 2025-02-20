@@ -1,0 +1,113 @@
+    1  apt update
+    2  apt install -y unminimize man
+    3  unminimize
+    4  ls
+    5  pwd
+    6  ls-a
+    7  ls -a
+    8  ls
+    9  ls -a
+   10  ls -l
+   11  ls -l -a
+   12  ls -al
+   13  ls -lah
+   14  ls -1
+   15  ls -lt
+   16  ls -ltr
+   17  ls -larth
+   18  ls /data
+   19  ls data
+   20  ls ./data
+   21  cd /data
+   22  ls -larth
+   23  ls
+   24  ls /
+   25  ls ..
+   26  pwd
+   27  cd..
+   28  cd ..
+   29  ls ~
+   30  cd ~
+   31  echo $HOME
+   32  whoami
+   33  cd /data
+   34  mkdir analyses
+   35  ls
+   36  rm analyses 
+   37  man rm-r
+   38  rm -r
+   39  ls
+   40  rm -d
+   41  rm -d analyses
+   42  > readme
+   43  cat readme
+   44  echo "Miaou" > readme
+   45  cat readme
+   46  echo "hello" >readme
+   47  cat readme
+   48  echo "hello again">readme
+   49  cat readme
+   50  echo "meaou">>readme 
+   51  cat readme
+   52  touch readme
+   53  cat readme
+   54  >readme 
+   55  echo "BASH scripting project" >>readme
+   56  cat readme 
+   57  echo "31/01/2025" >>readme
+   58  cat readme 
+   59  ls
+   60  cd bash\ tutorial\ /
+   61  ls
+   62  >tp_bash
+   63  ls tp_bash
+   64  ls
+   65  cd tp_bash 
+   66  ls
+   67  ls tp_bash 
+   68  ls
+   69  cd tp_bash 
+   70  rm tp_bash 
+   71  mkdir tp_bash
+   72  ls
+   73  ls ../
+   74  ls ../bash\ tutorial\ /
+   75  ls
+   76  ls tp_bash/
+   77  lls
+   78  ls
+   79  cd tp_bash/
+   80  ls
+   81  more saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   82  head saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   83  head -n 2 saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   84  tail -n 2 saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   85  head saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   86  head -n 2
+   87  head -n 2 saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   88  more saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+   89  man tail 
+   90  lls
+   91  ls
+   92  taul -n +22
+   93  tail -n +22
+   94  ls
+   95  head saccharomyces_cerevisiae_R64-3-1_20210421.gff >> readme
+   96  cat readme
+   97  tail -n +22 saccharomyces_cerevisiae_R64-3-1_20210421.gff |head -n1 
+   98  history 
+   99  history >> my_history
+  100  cat my_history 
+  101  *
+  102  cat my_history 
+  103  cut -f 1 saccharomyces_cerevisiae_R64-3-1_20210421.gff 
+  104  cut -f1
+  105  cut -f1 saccharomyces_cerevisiae_R64-3-1_20210421.gff | tail -n +22 | head 
+  106  cut -f1 saccharomyces_cerevisiae_R64-3-1_20210421.gff | tail -n +22 | sort | uniq
+  107  history 
+  108  cut -f 1 saccharomyces_cerevisiae_R64-3-1_20210421.gff | tail  tail -n +22 | sort | uniq
+  109  cut -f1 saccharomyces_cerevisiae_R64-3-1_20210421.gff | tail -n +22 | sort | uniq
+  110  cut -f1 saccharomyces_cerevisiae_R64-3-1_20210421.gff | rail -n +22 | sort | uniq >> Chromosome_file
+  111  cut -f1 saccharomyces_cerevisiae_R64-3-1_20210421.gff |tail -n +22 | sort | uniq >> Chromosome_file
+  112  history 
+  113  history > my_history

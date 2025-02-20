@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR957824_500K_2	/data/fastqc/SRR957824_500K_2_fastqc.zip
+FastQC	all_sections	SRR957824_clean_1	/data/fastqc/SRR957824_clean_1_fastqc.zip
+FastQC	all_sections	SRR957824_clean_2	/data/fastqc/SRR957824_clean_2_fastqc.zip
+FastQC	all_sections	SRR957824_500K_1	/data/fastqc/SRR957824_500K_1_fastqc.zip
